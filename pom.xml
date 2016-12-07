@@ -9,7 +9,7 @@
 	
 	<modules>
 		<module>gcmrc-ui</module>
-		<module>gcmrc-labs</module>
+		<!--<module>gcmrc-labs</module>-->
 		<module>gcmrc-services</module>
 	</modules>
 	
@@ -99,7 +99,7 @@
 		<developerConnection>scm:git:ssh://git@github.com/USGS-CIDA/gcmrc-ui-parent.git</developerConnection>
 	</scm>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 		<repository>
 			<id>cida-releases</id>
 			<name>CIDA Releases</name>
@@ -110,7 +110,7 @@
 			<name>CIDA Snapshots</name>
 			<url>http://internal.cida.usgs.gov/maven/content/repositories/cida-snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 	
 	<repositories>
 		<repository>
@@ -118,11 +118,11 @@
 			<name>CIDA public Nexus</name>
 			<url>http://cida.usgs.gov/maven/cida-public/</url>
 		</repository>
-		<repository>
+<!--		<repository>
 			<id>internal-nexus</id>
 			<name>CIDA Internal Nexus</name>
 			<url>http://internal.cida.usgs.gov/maven/content/groups/public/</url>
-		</repository>
+		</repository>-->
 	</repositories>
 	
 	<pluginRepositories>
@@ -131,11 +131,11 @@
 			<name>CIDA Public Plugin repo</name>
 			<url>http://cida.usgs.gov/maven/cida-public/</url>
 		</pluginRepository>
-		<pluginRepository>
+<!--		<pluginRepository>
 			<id>internal-plugin-nexus</id>
 			<name>CIDA Internal Plugin repo</name>
 			<url>http://internal.cida.usgs.gov/maven/content/groups/public/</url>
-		</pluginRepository>
+		</pluginRepository>-->
 	</pluginRepositories>
 	
 	<dependencies>
@@ -143,12 +143,12 @@
 		<dependency>
 			<groupId>gov.usgs.cida</groupId>
 			<artifactId>dynamicProperties</artifactId>
-			<version>0.0.1</version>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>gov.usgs.cida</groupId>
 			<artifactId>tomcat-utilities</artifactId>
-			<version>1.0.3</version>
+			<version>1.0.4</version>
 		</dependency>
 		<!-- LOGGING -->
 		<dependency>
@@ -191,7 +191,7 @@
 			<dependency>
 				<groupId>gov.usgs.cida.nude</groupId>
 				<artifactId>nude</artifactId>
-				<version>1.1.6</version>
+				<version>1.1.7</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -265,7 +265,7 @@
 			<dependency>
 				<groupId>gov.usgs.cida.jslibs</groupId>
 				<artifactId>log4js</artifactId>
-				<version>1.4.3-1</version>
+				<version>1.4.3-3</version>
 				<type>war</type>
 			</dependency>
 			<dependency>
@@ -283,7 +283,7 @@
 			<dependency>
 				<groupId>gov.usgs.cida.jslibs</groupId>
 				<artifactId>dygraphs-core</artifactId>
-				<version>20130314-1</version>
+				<version>20130314-3</version>
 				<type>war</type>
 			</dependency>
 			<dependency>

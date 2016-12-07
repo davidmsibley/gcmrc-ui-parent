@@ -71,7 +71,8 @@
 		</init-param>
 		<init-param>
 			<param-name>forward-url</param-name>
-			<param-value>http://localhost:8080/gcmrc-services/</param-value>
+<!--			<param-value>http://localhost:8080/gcmrc-services/</param-value>-->
+			<param-value>http://cida.usgs.gov/gcmrc/discharge_qw_sediment/services/</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
@@ -113,7 +114,8 @@
 		</init-param>
 		<init-param>
 			<param-name>forward-url</param-name>
-			<param-value>http://localhost:8080/gcmrc-photos/</param-value>
+			<!--<param-value>http://localhost:8080/gcmrc-photos/</param-value>-->
+			<param-value>http://cida.usgs.gov/gcmrc/discharge_qw_sediment/photo/</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>

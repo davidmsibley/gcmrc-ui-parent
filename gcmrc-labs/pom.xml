@@ -66,11 +66,11 @@
 			<artifactId>dygraphs-core</artifactId>
 			<type>war</type>
 		</dependency>
-		<dependency>
+<!--		<dependency>
 			<groupId>gov.usgs.cida.jslibs</groupId>
 			<artifactId>bootstrap-core</artifactId>
 			<type>war</type>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 	<build>
