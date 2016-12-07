@@ -307,7 +307,7 @@ GCMRC.Page = {
 			result = params.reduce(function(someDataPresent, el) {
 				var thisDataPresent = false;
 				if (!someDataPresent) {
-					GCMRC.Page.params[el].values(function(param) {
+					GCMRC.Page.params[el].values().map(function(param) {
 						var elBegin = param.beginPosition;
 						var elEnd = param.endPosition;
 
